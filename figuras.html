@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <h1>Figuras</h1>
+    </header>
+    <section>
+        <h2>Calcula area y perimetro Cuadrado</h2>
+        <form action="">
+            <label for="ladoCuadrado">Escribe cuanto mide un lado del cuadrado</label>
+            <input type="number" id="ladoCuadrado">
+
+            <button type="button" onclick=" calcularAreaCuadrado() ">
+                Calcula area
+            </button>
+            <button type="button" onclick=" calcularPerimetroCuadrado() ">
+                Calcula perimetro
+            </button>
+        </form>
+    </section>   
+    
+    <section>
+        <h2>Calcula area y perimetro triangulo</h2>
+        <form action="">
+            <label for="lado1">Escribe cuanto mide lado 1</label>
+            <input type="number" id="lado1">
+
+            <label for="lado2">Escribe cuanto mide lado 2</label>
+            <input type="number" id="lado2">
+
+            <label for="base">Escribe cuanto mide la base</label>
+            <input type="number" id="base">
+
+            <label for="altura">Escribe cuanto mide la altura</label>
+            <input type="number" id="altura">
+
+            <button type="button" onclick=" calcularAreaTriangulo() ">
+                Calcula area
+            </button>
+            <button type="button" onclick=" calcularPerimetroTriangulo() ">
+                Calcula perimetro
+            </button>
+        </form>
+    </section>   
+    <script src="./figuras.js"></script>
+</body>
+</html>
